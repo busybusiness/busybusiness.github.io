@@ -1,0 +1,40 @@
+body{
+    background:#E1D38A;
+    background-size:cover;
+    font-family:sans-serif;
+    text-align:center;
+  }
+
+  #inputting {
+    background:#E1D38A;
+    background-size:cover;
+  }
+
+  .btn{
+    width:230px;
+    height:120px;
+    line-height:120px;
+}
+.btn a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#0000FF;
+    text-align:center;
+    border:5px solid #0000FF;
+    color:#FFFFFF;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:35px;
+    -webkit-border-radius:35px;
+    -moz-border-radius:35px;
+    transition: all 0.5s ease;
+}
+.btn a:hover{
+    background:#FFFFFF;
+    color:#0000FF;
+    box-shadow:none;
+}
+  
+  
