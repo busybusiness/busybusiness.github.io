@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.typingname {
+    font-family: 'Book Antiqua';
+    border-bottom: solid 1px #000000;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 60px;
+}
+
+.explain {
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-bottom: solid 1px rgb(66, 44, 194);
+    text-align: center;
+}
+
+.write {
+    text-align: center;
+}
+
+@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-rounded {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 35px 0;
+  border-radius: 50%;
+  background: #fcfff4;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fcfff4),
+    color-stop(40%, #dfe5d7),
+    to(#b3bead)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #fcfff4 0%,
+    #dfe5d7 40%,
+    #b3bead 100%
+  );
+  background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  -webkit-box-shadow: inset 5px 30px 20px rgba(255, 255, 255, 0.5),
+    0 6px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 5px 30px 20px rgba(255, 255, 255, 0.5),
+    0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+a.btn-rounded i {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+a.btn-rounded:hover {
+  -webkit-box-shadow: inset 15px 30px 40px rgba(255, 255, 255, 0.55),
+    0 3px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 15px 30px 40px rgba(255, 255, 255, 0.55),
+    0 3px 7px rgba(0, 0, 0, 0.2);
+}
+
+a.btn-rounded:hover i {
+  bottom: 6px;
+}
+
+.fa-position-bottom {
+  position: absolute;
+  bottom: 1rem;
+  left: calc(50% - 0.5rem);
+}
+
+
+@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-rounded {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 35px 0;
+  border-radius: 50%;
+  background: #fcfff4;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fcfff4),
+    color-stop(40%, #dfe5d7),
+    to(#b3bead)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #fcfff4 0%,
+    #dfe5d7 40%,
+    #b3bead 100%
+  );
+  background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  -webkit-box-shadow: inset 5px 30px 20px rgba(255, 255, 255, 0.5),
+    0 6px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 5px 30px 20px rgba(255, 255, 255, 0.5),
+    0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+a.btn-rounded i {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+a.btn-rounded:hover {
+  -webkit-box-shadow: inset 15px 30px 40px rgba(255, 255, 255, 0.55),
+    0 3px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 15px 30px 40px rgba(255, 255, 255, 0.55),
+    0 3px 7px rgba(0, 0, 0, 0.2);
+}
+
+a.btn-rounded:hover i {
+  bottom: 6px;
+}
+
+.fa-position-bottom {
+  position: absolute;
+  bottom: 1rem;
+  left: calc(50% - 0.5rem);
+}
+
+html {
+    height:100%;
+  }
+  
+  body {
+    margin:0;
+  }
+  
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  .content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+  
+  h1 {
+    font-family:monospace;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+
+  #wing {
+      margin-top: 40px;
+  }
