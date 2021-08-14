@@ -203,7 +203,7 @@ const timerId = setInterval(() => {
       container.appendChild(newBox);*/
 
       var linkID = "yahoo";	// リンクを設定するタグのID
-const linkURL = "smartphonetyping.html";
+const linkURL = "index.html";
 const baseTag = document.getElementById('yahoo');
 const link1 = baseTag.firstChild.nodeValue;
 const aTag = document.createElement("a");
