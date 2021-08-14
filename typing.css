@@ -9,19 +9,19 @@ body {
     margin-bottom: 0;
     padding-bottom: 0;
     text-align: center;
-    font-size: 60px;
+    font-size: 100px;
 }
 
 .explain {
     margin-top: 0;
     padding-top: 0;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 p {
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 input {
